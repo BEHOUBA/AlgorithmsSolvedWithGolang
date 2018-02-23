@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func isPrimeNumber(num int) bool {
 	divP := num / 2
 	for x := 3; x <= divP; x++ {
@@ -26,6 +24,6 @@ func findMaxPrime(num int) int {
 	return val
 }
 
-func main() {
-	fmt.Println(findMaxPrime(600851475067))
-}
+// func main() {
+// 	fmt.Println(findMaxPrime(600851475067))
+// }
